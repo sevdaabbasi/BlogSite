@@ -7,8 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Entities\" />
-      <Folder Include="Post\" />
+      <ProjectReference Include="..\BlogSite.Core\BlogSite.Core.csproj" />
     </ItemGroup>
 
 </Project>
