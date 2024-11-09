@@ -4,14 +4,14 @@
     "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj": {}
   },
   "projects": {
-    "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj": {
+    "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Core/BlogSite.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj",
-        "projectName": "BlogSite.Repository",
-        "projectPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj",
+        "projectUniqueName": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Core/BlogSite.Core.csproj",
+        "projectName": "BlogSite.Core",
+        "projectPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Core/BlogSite.Core.csproj",
         "packagesPath": "/Users/sevdaabbasi/.nuget/packages/",
-        "outputPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/obj/",
+        "outputPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sevdaabbasi/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,142 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Models/BlogSite.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Models/BlogSite.Models.csproj",
+        "projectName": "BlogSite.Models",
+        "projectPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Models/BlogSite.Models.csproj",
+        "packagesPath": "/Users/sevdaabbasi/.nuget/packages/",
+        "outputPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sevdaabbasi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Core/BlogSite.Core.csproj": {
+                "projectPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Core/BlogSite.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj",
+        "projectName": "BlogSite.Repository",
+        "projectPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/BlogSite.Repository.csproj",
+        "packagesPath": "/Users/sevdaabbasi/.nuget/packages/",
+        "outputPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sevdaabbasi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Models/BlogSite.Models.csproj": {
+                "projectPath": "/Users/sevdaabbasi/RiderProjects/BlogSite/BlogSite.Models/BlogSite.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
