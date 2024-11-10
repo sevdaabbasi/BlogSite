@@ -12,3 +12,4 @@ public class BaseDbContext : DbContext
 
     public DbSet<Post> Posts { get; set; }
 }
+

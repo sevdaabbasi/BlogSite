@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BlogSite.Core\BlogSite.Core.csproj" />
+      <ProjectReference Include="..\BlogSite.Models\BlogSite.Models.csproj" />
+      <ProjectReference Include="..\BlogSite.Repository\BlogSite.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+    </ItemGroup>
+
 </Project>
