@@ -9,5 +9,6 @@ public class EfPostRepository : EfRepositoryBase<BaseDbContext,Post,Guid>, IPost
 {
     public EfPostRepository(BaseDbContext context) : base(context)
     {
+        
     }
 }
